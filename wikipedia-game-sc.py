@@ -2,7 +2,7 @@ from queue import Queue
 import wikipediaapi
 import time
 
-user_agent = "MsOrret'sWikipediaGame/1.0 (orret.deborah@pusd.us)"
+user_agent = "VickisWiikipediaGame/1.0 (ar4423vi0620)"
 
 wiki_wiki = wikipediaapi.Wikipedia(user_agent, "en")
 
@@ -19,7 +19,19 @@ def fetch_links(page):
 def wikipedia_game_solver(start_page, target_page):
     print('Working on it...')
     start_time = time.time()
-  
+
+    visited = []
+    queue = Queue()
+    path = []
+
+    visited.append(start_page.title)
+
+    while not queue.empty(): 
+        ddffd
+    #queue.get()
+    #queue.put(page)
+
+
     # FINISH THE CODE HERE
 
     end_time = time.time()
